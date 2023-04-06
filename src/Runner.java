@@ -55,7 +55,7 @@ public class Runner {
 
         int p = 0;
         while (p != 3) {
-            System.out.println("\n*****Patient's Menu*****");
+            System.out.println("\n---->Patient's Menu<----");
             System.out.println("Please select from the following menu");
             System.out.println("1. Book an appointment\n2. See all appointments\n3. Exit");
             System.out.print("Choose the opetion from 1-3: ");
@@ -77,7 +77,7 @@ public class Runner {
 
         int d = 0;
         while (d != 5) {
-            System.out.println("*****Doctor's Menu*****");
+            System.out.println("---->Doctor's Menu<----");
             System.out.println("Please select from the following menu");
             System.out.println(
                     "1. See all appointments\n2. Accept appointments\n3. Reject appointments\n4. Delete appointments\n5. Exit");
@@ -106,7 +106,7 @@ public class Runner {
 
         int a = 0;
         while (a != 7) {
-            System.out.println("\n*****Admin's Menu*****");
+            System.out.println("\n---->Admin's Menu<----");
             System.out.println("Please select from the following menu");
             System.out.println(
                     "1. Add doctor\n2. Add patient\n3. Edit doctor\n4. Edit patient\n5. Delete doctor\n6. Delete patient\n7. Exit");
